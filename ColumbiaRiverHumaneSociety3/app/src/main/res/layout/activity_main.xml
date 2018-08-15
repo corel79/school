@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dog_and_cat_image"
+        android:id= "@+id/dog_and_cat_image"
+        android:paddingTop="8dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src= "@drawable/paw_print_image"
+        android:id= "@+id/paw_print_image"
+        android:layout_below="@id/dog_and_cat_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Columbia Humane Society"
+        android:layout_below="@id/paw_print_image"
+        android:textSize="45sp"
+        android:layout_centerHorizontal="true"
+        android:id= "@+id/businessname" />
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src= "@drawable/paw_print_image"
+    android:id= "@+id/paw_print_image2"
+    android:layout_below="@id/businessname"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2084 Oregon St, Saint Helens, Oegon 97051"
+        android:id= "@+id/address"
+        android:textSize="25sp"
+        android:layout_below="@id/paw_print_image2"
+        android:paddingLeft="8dp"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="(503) 397-4353"
+    android:id= "@+id/phonenumber"
+    android:textSize="25sp"
+    android:layout_below="@id/address"
+        android:paddingLeft="8dp"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INFO@ColumbiaHumane.org"
+        android:id= "@+id/email"
+        android:textSize="25sp"
+        android:layout_below="@id/phonenumber"
+        android:paddingLeft="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOURS OF OPERATION"
+        android:id= "@+id/hours_title"
+        android:textSize="25sp"
+        android:layout_above="@id/MWTF_hours"
+        android:paddingLeft="8dp"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Monday, Wednesday, Thursday, Friday - by appointment only"
+    android:id= "@+id/MWTF_hours"
+    android:textSize="25sp"
+        android:layout_above="@id/TSS_hours"
+        android:paddingLeft="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuesday, Saturday, Sunday - 12pm-5pm"
+        android:id= "@+id/TSS_hours"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"/>
+
+</RelativeLayout>
