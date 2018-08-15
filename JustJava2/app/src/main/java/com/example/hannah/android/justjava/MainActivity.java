@@ -60,3 +60,4 @@ public class MainActivity extends AppCompatActivity {
         priceTextView.setText(NumberFormat.getCurrencyInstance().format(number));
     }
 }
+/** this is a git test.*/
