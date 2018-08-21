@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     int Captain_Fish_VP = 0;
     int Mantis_Health = 10;
     int Mantis_VP = 0;
-    int Mega_Shark_Health = 10;
+    int Mega_Shark_Health = 10;2
     int Mega_Shark_VP = 0;
     int Drakonis_Health = 10;
     int Drakonis_VP = 0;
