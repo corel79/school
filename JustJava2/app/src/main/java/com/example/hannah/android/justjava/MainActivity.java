@@ -80,7 +80,7 @@ public void displayKongVP(int KongVP) {
 }
 
     /**
-     * Displays the given score for Kong Health.
+     * Displays the given score for Kong Health. test for git
      */
     public void displayKongHealth(int KongH) {
         TextView scoreView = (TextView) findViewById(R.id.Kong_Health);
