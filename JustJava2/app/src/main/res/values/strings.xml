@@ -1,3 +1,15 @@
-<resources>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">JustJava</string>
+
+    <!-- Header text for the list of toppings [CHAR LIMIT=20] -->
+    <string name="toppings">Toppings</string>
+
+    <!-- Header for Quantity -->
+    <string name="quantity">Quantity</string>
+
+    <!-- Thank you message for the order summary [CHAR LIMIT=NONE] -->
+    <string name="thank_you">Thank you!</string>
+    <string name="order_summary_name">Name: </string>
+
 </resources>
